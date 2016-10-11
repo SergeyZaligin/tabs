@@ -1,0 +1,15 @@
+{
+  "name": "nav",
+  "version": "1.0.0",
+  "description": "responsive navigation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "cobweb",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
