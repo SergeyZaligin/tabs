@@ -9,6 +9,12 @@ body{
   background-color: #222;
 }
 
+.clearfix{
+  content:'';
+  display: table;
+  clear: both;
+}
+
 i[class*="ico-"] {
   font-family: 'FontAwesome';
   font-style: normal;
@@ -29,12 +35,18 @@ i.ico-menu {
   margin:20px auto;
 }
 .b-tabs-navigation{
-
+  width: 100%;
 }
 .b-tabs-navigation__item{
-  display: inline-block;
-  background-color: #f3f3f3;
+  display: block;
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+  background-color: rgba(211,236,249, 0.5);
   padding: 30px;
+}
+.b-tabs-navigation__item:last-child{
+  margin-right: 0;
 }
 .active{
   background-color: #fff;
